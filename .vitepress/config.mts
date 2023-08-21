@@ -26,7 +26,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Introduction', link: '/introduction' }
     ],
 
     search: {
@@ -44,6 +44,12 @@ export default defineConfig({
         items: [
           { text: 'Introduction', link: '/introduction/' },
           { text: 'Getting Started', link: '/introduction/getting-started' }
+        ]
+      },
+      {
+        text: 'Protocol Buffer',
+        items: [
+          { text: 'What is Protocol Buffer?', link: '/protocol-buffer/' },
         ]
       }
     ],
