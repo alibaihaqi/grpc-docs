@@ -19,6 +19,10 @@ export default defineConfig({
     // }
   },
 
+  head: [
+    ['link', { rel: 'icon', href: '/assets/favicon.ico' }]
+  ],
+
   title: 'gRPC Documentation',
   description: 'gRPC Documentation Collection',
 
@@ -26,7 +30,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Introduction', link: '/introduction' }
+      { text: 'Introduction', link: '/introduction/' },
+      { text: 'Protocol Buffer', link: '/protocol-buffer/'}
     ],
 
     search: {
@@ -50,6 +55,7 @@ export default defineConfig({
         text: 'Protocol Buffer',
         items: [
           { text: 'What is Protocol Buffer?', link: '/protocol-buffer/' },
+          { text: 'Why Protocol Buffer?', link: '/protocol-buffer/why-protocol-buffer' },
         ]
       }
     ],

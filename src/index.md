@@ -13,9 +13,10 @@ hero:
       text: Getting Started
       link: /introduction/getting-started
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Protocol Buffers
+    details: Understand the protocol buffers
+    link: '/protocol-buffer/'
 #   - title: Feature B
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C
