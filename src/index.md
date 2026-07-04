@@ -17,10 +17,9 @@ features:
   - title: Protocol Buffers
     details: Understand the protocol buffers
     link: '/protocol-buffer/'
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Beginner
+    details: Build a unary Greeter gRPC service in Node.js — proto, server, and client
+    link: '/beginner/'
 ---
 
 <style>

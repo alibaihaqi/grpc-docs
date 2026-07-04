@@ -31,7 +31,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Introduction', link: '/introduction/' },
-      { text: 'Protocol Buffer', link: '/protocol-buffer/'}
+      { text: 'Protocol Buffer', link: '/protocol-buffer/'},
+      { text: 'Beginner', link: '/beginner/' }
     ],
 
     search: {
@@ -56,7 +57,20 @@ export default defineConfig({
           { text: 'What is Protocol Buffer?', link: '/protocol-buffer/' },
           { text: 'Why Protocol Buffer?', link: '/protocol-buffer/why-protocol-buffer' },
         ]
-      }
+      },
+      {
+        text: 'Beginner',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/beginner/' },
+          { text: '01 What is gRPC', link: '/beginner/01-what-is-grpc' },
+          { text: '02 Define the proto', link: '/beginner/02-define-proto' },
+          { text: '03 Load the proto', link: '/beginner/03-load-proto' },
+          { text: '04 The server', link: '/beginner/04-server' },
+          { text: '05 The client', link: '/beginner/05-client' },
+          { text: '06 Run and inspect', link: '/beginner/06-run-and-inspect' },
+        ],
+      },
     ],
 
     socialLinks: [
