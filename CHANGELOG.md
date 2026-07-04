@@ -3,6 +3,13 @@
 All notable changes to the gRPC learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-04 — Intermediate tier
+
+### Added
+- **Intermediate tier** (`src/intermediate/`, 6 pages): a server-streaming
+  `SayHellos` RPC, error handling with gRPC status codes, and a client deadline
+  — extending the beginner Greeter.
+
 ## 2026-07-04 — Beginner tier + toolchain alignment
 
 ### Added

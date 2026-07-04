@@ -8,7 +8,7 @@
 
 ## Content model
 - Content lives in `src/`. Sections: `introduction`, `beginner`,
-  `protocol-buffer`.
+  `intermediate`, `protocol-buffer`.
 - A tier is a numbered ladder building ONE concrete artifact.
 - Tier `index.md` frontmatter: `title`, `tier`, `platform: grpc`.
 
