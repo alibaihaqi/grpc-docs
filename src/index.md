@@ -20,6 +20,9 @@ features:
   - title: Beginner
     details: Build a unary Greeter gRPC service in Node.js — proto, server, and client
     link: '/beginner/'
+  - title: Intermediate
+    details: Extend the Greeter with server-streaming, error handling, and client deadlines
+    link: '/intermediate/'
 ---
 
 <style>
