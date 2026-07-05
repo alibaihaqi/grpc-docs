@@ -23,6 +23,9 @@ features:
   - title: Intermediate
     details: Extend the Greeter with server-streaming, error handling, and client deadlines
     link: '/intermediate/'
+  - title: Advanced
+    details: Production gRPC — bidirectional streaming, interceptors, TLS, health, reflection, load balancing, gRPC-web, and Docker deployment
+    link: '/advanced/'
 ---
 
 <style>

@@ -3,6 +3,11 @@
 All notable changes to the gRPC learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-05 — Advanced tier
+
+### Added
+- **Advanced tier** (`src/advanced/`, 10 pages + index): production gRPC — bidirectional streaming chat, interceptors (logging, auth), TLS/mTLS, health checking, reflection, client-side load balancing, client-streaming upload, gRPC-web via Envoy, rich error model, and Docker deployment. Wired into the sidebar, nav, and home feature card.
+
 ## 2026-07-04 — Intermediate tier
 
 ### Added

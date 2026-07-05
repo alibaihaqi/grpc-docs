@@ -33,7 +33,8 @@ export default defineConfig({
       { text: 'Introduction', link: '/introduction/' },
       { text: 'Protocol Buffer', link: '/protocol-buffer/'},
       { text: 'Beginner', link: '/beginner/' },
-      { text: 'Intermediate', link: '/intermediate/' }
+      { text: 'Intermediate', link: '/intermediate/' },
+      { text: 'Advanced', link: '/advanced/' }
     ],
 
     search: {
@@ -83,6 +84,23 @@ export default defineConfig({
           { text: '04 The streaming client', link: '/intermediate/04-streaming-client' },
           { text: '05 Errors and status codes', link: '/intermediate/05-errors-and-status' },
           { text: '06 Deadlines and run', link: '/intermediate/06-deadlines-and-run' },
+        ],
+      },
+      {
+        text: 'Advanced',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/advanced/' },
+          { text: '01 Bidirectional streaming', link: '/advanced/01-bidirectional-streaming' },
+          { text: '02 Interceptors', link: '/advanced/02-interceptors' },
+          { text: '03 TLS encryption', link: '/advanced/03-tls-encryption' },
+          { text: '04 Health checking', link: '/advanced/04-health-checking' },
+          { text: '05 Reflection', link: '/advanced/05-reflection' },
+          { text: '06 Load balancing', link: '/advanced/06-load-balancing' },
+          { text: '07 Client-side streaming', link: '/advanced/07-client-streaming' },
+          { text: '08 gRPC-web', link: '/advanced/08-grpc-web' },
+          { text: '09 Rich error model', link: '/advanced/09-rich-error-model' },
+          { text: '10 Docker deployment', link: '/advanced/10-docker-deployment' },
         ],
       },
     ],
